@@ -14,13 +14,14 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin-right: 20px;
-    
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+    font-size: 1.5em;
 }
 
 a {
     text-decoration: none;
-    color: #999;
+    color: maroon;
 }
 
 #photo {
@@ -43,12 +44,18 @@ h1 small {
     display: block;
     font-size: 60%;
     color: #aaa;
+    margin-top: 0.5em
 }
-
-
 
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
+    text-align: left;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+p a {
+    color: maroon;
 }
